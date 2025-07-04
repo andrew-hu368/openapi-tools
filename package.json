@@ -7,6 +7,14 @@
 	"files": [
 		"dist"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hu-lha/openapi-tools.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hu-lha/openapi-tools/issues"
+	},
+	"homepage": "https://github.com/hu-lha/openapi-tools#readme",
 	"scripts": {
 		"build": "tsc",
 		"check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
